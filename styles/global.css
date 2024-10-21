@@ -32,3 +32,13 @@ a {
 img {
   width: 100%;
 }
+
+img {
+	vertical-align: top;
+}
+
+button {
+  background: none;
+  border: none;
+  text-transform: none;
+}
