@@ -196,11 +196,6 @@ button.bet-button {
     justify-content: space-between;
 }
 
-.lots__card-list-item{
-    /* flex-grow: 1;
-    margin-right: 25px; */
-}
-
 .card-link{
     text-decoration: none;
 }
@@ -347,10 +342,6 @@ button.bet-button {
     line-height: 21px;
 }
 
-.footer__menu-list-item {
-
-}
-
 .footer__menu-link {
     text-decoration: none;
 }
@@ -365,12 +356,8 @@ button.bet-button {
     padding-left: 93px;
 }
 
-.footer__social-list-item {
-
-}
-
 .footer__social-link {
-
+    text-decoration: none;
 }
 
 .footer__social-icon {
