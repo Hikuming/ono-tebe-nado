@@ -123,11 +123,15 @@
 
 .aligned-text_right {
   text-align: end;
-  margin-right: -30px;
+  /* margin-right: -30px; */
 }
 
 .aligned-text_special {
   letter-spacing: 60px;
+}
+
+.aligned-text__right-letter {
+    letter-spacing: 0px;
 }
 
 .cover__description {
@@ -226,13 +230,6 @@
   z-index: 2;
 }
 
-.card__title-underline {
-  background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0 95%;
-  background-repeat: no-repeat;
-  background-size: 100% 2px;
-}
-
 .card__text {
   display: block;
   width: 254px;
@@ -304,7 +301,7 @@
   font-size: 18px;
   font-weight: 400;
   align-items: start;
-  padding: 0;
+  padding: 0 0 88px 0;
 }
 
 .address__footer {
